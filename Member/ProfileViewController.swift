@@ -1,5 +1,5 @@
 //
-//  RegisterViewController.swift
+//  ProfileViewController.swift
 //  Member
 //
 //  Created by 蘇健豪1 on 2016/4/13.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegisterViewontroller: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class RegisterViewontroller: UIViewController {
     }
     
     
-    @IBAction func register(sender: UIButton) {
+    @IBAction func profile(sender: UIButton) {
         self.navigationController?.popViewControllerAnimated(true)
     }
     

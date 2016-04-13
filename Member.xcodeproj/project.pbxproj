@@ -15,8 +15,8 @@
 		1DAC54A01CBDED33002A0A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DAC549E1CBDED33002A0A3D /* LaunchScreen.storyboard */; };
 		1DAC54AB1CBDED33002A0A3D /* MemberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC54AA1CBDED33002A0A3D /* MemberTests.swift */; };
 		1DAC54B61CBDED33002A0A3D /* MemberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC54B51CBDED33002A0A3D /* MemberUITests.swift */; };
-		1DAC54C81CBE1A8C002A0A3D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC54C71CBE1A8C002A0A3D /* RootViewController.swift */; };
 		1DAC54CA1CBE21EB002A0A3D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC54C91CBE21EB002A0A3D /* RegisterViewController.swift */; };
+		1DAC54CC1CBE275C002A0A3D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAC54CB1CBE275C002A0A3D /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		1DAC54B11CBDED33002A0A3D /* MemberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DAC54B51CBDED33002A0A3D /* MemberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberUITests.swift; sourceTree = "<group>"; };
 		1DAC54B71CBDED33002A0A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DAC54C71CBE1A8C002A0A3D /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1DAC54C91CBE21EB002A0A3D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1DAC54CB1CBE275C002A0A3D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 			children = (
 				1DAC54921CBDED33002A0A3D /* AppDelegate.swift */,
 				1DAC54941CBDED33002A0A3D /* ViewController.swift */,
-				1DAC54C71CBE1A8C002A0A3D /* RootViewController.swift */,
 				1DAC54C91CBE21EB002A0A3D /* RegisterViewController.swift */,
+				1DAC54CB1CBE275C002A0A3D /* ProfileViewController.swift */,
 				1DAC54961CBDED33002A0A3D /* Main.storyboard */,
 				1DAC549C1CBDED33002A0A3D /* Assets.xcassets */,
 				1DAC549E1CBDED33002A0A3D /* LaunchScreen.storyboard */,
@@ -265,9 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DAC54C81CBE1A8C002A0A3D /* RootViewController.swift in Sources */,
 				1DAC54CA1CBE21EB002A0A3D /* RegisterViewController.swift in Sources */,
 				1DAC549B1CBDED33002A0A3D /* Member.xcdatamodeld in Sources */,
+				1DAC54CC1CBE275C002A0A3D /* ProfileViewController.swift in Sources */,
 				1DAC54951CBDED33002A0A3D /* ViewController.swift in Sources */,
 				1DAC54931CBDED33002A0A3D /* AppDelegate.swift in Sources */,
 			);

@@ -22,10 +22,10 @@
             </objects>
             <point key="canvasLocation" x="15" y="478"/>
         </scene>
-        <!--Root View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="RootViewController" customModule="Member" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Root" id="BYZ-38-t0r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="736" y="478"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="ddV-Vh-NHw">
             <objects>
-                <viewController id="wYQ-ii-QCn" sceneMemberID="viewController">
+                <viewController id="wYQ-ii-QCn" customClass="ProfileViewController" customModule="Member" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qvs-IV-r3e"/>
                         <viewControllerLayoutGuide type="bottom" id="Kmm-CX-TYn"/>
@@ -126,7 +126,7 @@
                                 <rect key="frame" x="285" y="423" width="30" height="30"/>
                                 <state key="normal" title="登出"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="JJs-g6-sni"/>
+                                    <action selector="profile:" destination="wYQ-ii-QCn" eventType="touchUpInside" id="RoZ-pa-JIy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密碼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOr-4h-Uii">
@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="1497" y="66"/>
         </scene>
-        <!--View Controller-->
+        <!--Register Viewontroller-->
         <scene sceneID="JSf-uP-tqY">
             <objects>
-                <viewController id="riC-Wm-hCl" sceneMemberID="viewController">
+                <viewController id="riC-Wm-hCl" customClass="RegisterViewontroller" customModule="Member" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fE1-cN-ja9"/>
                         <viewControllerLayoutGuide type="bottom" id="obI-Vg-gd5"/>
@@ -180,7 +180,7 @@
                                 <rect key="frame" x="285" y="351" width="30" height="30"/>
                                 <state key="normal" title="註冊"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="OtO-4O-drD"/>
+                                    <action selector="register:" destination="riC-Wm-hCl" eventType="touchUpInside" id="Gas-54-q4I"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密碼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYM-ei-o0D">
@@ -228,7 +228,4 @@
             <point key="canvasLocation" x="1496" y="883"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="OtO-4O-drD"/>
-    </inferredMetricsTieBreakers>
 </document>
